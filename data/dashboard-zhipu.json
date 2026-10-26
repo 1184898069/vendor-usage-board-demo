@@ -1,0 +1,60 @@
+{
+ "vendor_id": "zhipu",
+ "display_name": "智谱 GLM",
+ "plan_label": "智谱 GLM · 待接入",
+ "status_label": "用量 API 待接入",
+ "demo": false,
+ "ok": false,
+ "setup_needed": true,
+ "panel_kind": "stub",
+ "usage_source": "unknown",
+ "execution_readiness": "disabled",
+ "billing_mode": "unknown",
+ "product": null,
+ "windows": [],
+ "series": [],
+ "details": [],
+ "notes": [
+  "此订阅在 YAML 中为 enabled: false，侧栏「待接入」。",
+  "用量 API 待接入。当前仅占位，便于以后打开。",
+  "推理密钥通常不能查询账单。智谱 Coding Plan 与开放平台按量是两套账。",
+  "日期范围暂不生效。"
+ ],
+ "errors": [
+  "用量 API 待接入"
+ ],
+ "setup_steps": [
+  "把 Hermes 里已有的智谱密钥写入 secrets/zhipu.env：ZHIPU_API_KEY（也识别 GLM_API_KEY / ZAI_API_KEY）",
+  "BigModel（open.bigmodel.cn）与 Z.AI 国际站是两套账号，密钥不要混用",
+  "把 config/vendors/zhipu.yaml 的 enabled 改为 true",
+  "实现本文件 fetch() 对接官方用量接口；Coding Plan 订阅与按量 API 是两套账"
+ ],
+ "setup_html": null,
+ "security": [
+  {
+   "level": "muted",
+   "title": "占位适配器",
+   "text": "不会调用智谱接口。打开时请区分 BigModel 与 Z.AI。"
+  }
+ ],
+ "checklist": [
+  {
+   "text": "secrets/zhipu.env 可先填 ZHIPU_API_KEY",
+   "done": false,
+   "warn": false
+  },
+  {
+   "text": "用量/账单接口尚未实现",
+   "done": false,
+   "warn": true
+  }
+ ],
+ "supports_timerange": false,
+ "refreshed_at": "2026-10-26 17:04:17",
+ "hint": null,
+ "extra": {},
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ }
+}

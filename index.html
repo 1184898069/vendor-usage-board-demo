@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>用量看板</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div style="background:#b45309;color:#fff;text-align:center;padding:8px 12px;font-size:14px">演示版 · 本页全部为示例数据，不含任何真实订阅与用量信息</div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="brand">
+        <h1>用量看板</h1>
+        <div class="sub">本机 127.0.0.1 · Asia/Shanghai</div>
+      </div>
+      
+      <nav id="nav" class="nav"></nav>
+      <div class="side-foot sub">无遥测 · 密钥不入库、不打日志</div>
+    </aside>
+    <main class="main">
+      <header>
+        <div>
+          <h2 id="title">概览</h2>
+          <div class="sub" id="subtitle">各订阅独立配置、独立示例数据</div>
+          <div class="pills" id="pills"></div>
+        </div>
+        <div class="actions">
+          <label class="sub">从 <input type="date" id="start" /></label>
+          <label class="sub">到 <input type="date" id="end" /></label>
+          <button class="ghost" id="preset7" type="button">近 7 天</button>
+          <button id="refresh" type="button">刷新</button>
+        </div>
+      </header>
+      <div id="setup" class="card setup" hidden>
+        <h3 id="setupTitle">配置</h3>
+        <ol id="setupSteps"></ol>
+      </div>
+      <div id="error" class="card err" hidden></div>
+      <div id="overview" class="overview"></div>
+      <div id="panel" hidden>
+        <div class="grid4" id="quotas"></div>
+        <div id="checklistWrap" class="card sec" hidden>
+          <h3>说明清单</h3>
+          <ul class="checks" id="checklist"></ul>
+        </div>
+        <div class="sec card"><h3>安全提示</h3><div class="flags" id="flags"></div></div>
+        <div class="charts" id="chartsWrap">
+          <div class="card"><h3>用量随时间</h3><div id="chartTime"></div></div>
+          <div class="card"><h3>按模型 / 分项</h3><div id="chartModel"></div></div>
+        </div>
+        <div class="card sec" id="tableWrap">
+          <h3>调用明细</h3>
+          <div class="sub" id="tableHint"></div>
+          <div style="overflow:auto;margin-top:8px">
+            <table>
+              <thead>
+                <tr><th>时间</th><th>模型</th><th>套餐内 / 外</th><th>数量</th><th>其他字段</th><th>来源</th></tr>
+              </thead>
+              <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <p class="notes" id="notes"></p>
+      </div>
+    </main>
+  </div>
+  <script src="demo-shim.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

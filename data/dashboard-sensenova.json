@@ -1,0 +1,60 @@
+{
+ "vendor_id": "sensenova",
+ "display_name": "商汤日日新",
+ "plan_label": "商汤日日新 · 待接入",
+ "status_label": "用量 API 待接入",
+ "demo": false,
+ "ok": false,
+ "setup_needed": true,
+ "panel_kind": "stub",
+ "usage_source": "unknown",
+ "execution_readiness": "disabled",
+ "billing_mode": "unknown",
+ "product": null,
+ "windows": [],
+ "series": [],
+ "details": [],
+ "notes": [
+  "此订阅在 YAML 中为 enabled: false，侧栏「待接入」。",
+  "用量 API 待接入。当前仅占位，便于以后打开。",
+  "推理密钥（SENSENOVA_API_KEY）通常不能查询账单，正式接入时请对照官方用量接口。",
+  "日期范围暂不生效。"
+ ],
+ "errors": [
+  "用量 API 待接入"
+ ],
+ "setup_steps": [
+  "在 Hermes 已使用商汤日日新时，把推理密钥写入 secrets/sensenova.env：SENSENOVA_API_KEY",
+  "若走 SenseCore 账号账单，可能还需要 SENSECORE_ACCESS_KEY_ID / SENSECORE_ACCESS_KEY_SECRET（用量 API 待接入，先不要指望推理密钥能查账单）",
+  "把 config/vendors/sensenova.yaml 的 enabled 改为 true",
+  "实现本文件 fetch()：对接官方用量/账单接口后即可，不必改 app.py"
+ ],
+ "setup_html": null,
+ "security": [
+  {
+   "level": "muted",
+   "title": "占位适配器",
+   "text": "不会调用商汤接口，也不会用推理密钥去猜账单。"
+  }
+ ],
+ "checklist": [
+  {
+   "text": "secrets/sensenova.env 可先填 SENSENOVA_API_KEY",
+   "done": false,
+   "warn": false
+  },
+  {
+   "text": "用量/账单接口尚未实现",
+   "done": false,
+   "warn": true
+  }
+ ],
+ "supports_timerange": false,
+ "refreshed_at": "2026-10-26 17:04:17",
+ "hint": null,
+ "extra": {},
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ }
+}

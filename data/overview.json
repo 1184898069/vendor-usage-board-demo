@@ -1,0 +1,255 @@
+{
+ "refreshed_at": "2026-10-26 17:04:13",
+ "tz": "Asia/Shanghai",
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ },
+ "vendors": [
+  {
+   "id": "chatgpt",
+   "enabled": true,
+   "display_name": "ChatGPT 订阅",
+   "panel": {
+    "color": "#e3a008",
+    "icon": "💬"
+   },
+   "adapter": "chatgpt",
+   "usage_source": "manual",
+   "execution_readiness": "not_verified",
+   "billing_mode": "unknown",
+   "ok": true,
+   "demo": true,
+   "status_label": "示例数据",
+   "plan_label": "ChatGPT · Plus · 示例地区",
+   "windows": [
+    {
+     "key": "plan",
+     "label": "当前套餐",
+     "used": null,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": null,
+     "metric_kind": "subscription_info",
+     "display_value": "Plus"
+    },
+    {
+     "key": "price_local",
+     "label": "本地标价 (PHP)",
+     "used": 999.0,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "PHP",
+     "metric_kind": "subscription_info",
+     "display_value": null
+    },
+    {
+     "key": "price_usd",
+     "label": "约合美元",
+     "used": 16.0,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "USD",
+     "metric_kind": "subscription_info",
+     "display_value": null
+    },
+    {
+     "key": "renew",
+     "label": "距下次续费",
+     "used": 6.0,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": "2026-11-01",
+     "unit": "天",
+     "metric_kind": "subscription_info",
+     "display_value": null
+    }
+   ],
+   "errors": [],
+   "setup_needed": false,
+   "panel_kind": "subscription",
+   "supports_timerange": false
+  },
+  {
+   "id": "openai",
+   "enabled": true,
+   "display_name": "OpenAI API",
+   "panel": {
+    "color": "#10a37f",
+    "icon": "⬡"
+   },
+   "adapter": "openai",
+   "usage_source": "mock",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown",
+   "ok": true,
+   "demo": true,
+   "status_label": "示例数据",
+   "plan_label": "OpenAI API · 示例数据",
+   "windows": [
+    {
+     "key": "range",
+     "label": "区间花费",
+     "used": 3.864,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "USD",
+     "metric_kind": "usage",
+     "display_value": null
+    },
+    {
+     "key": "daily_avg",
+     "label": "日均",
+     "used": 0.552,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "USD",
+     "metric_kind": "usage",
+     "display_value": null
+    },
+    {
+     "key": "peak",
+     "label": "最高日（示例）",
+     "used": 1.3524,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "USD",
+     "metric_kind": "usage",
+     "display_value": null
+    },
+    {
+     "key": "line_items",
+     "label": "费用分项",
+     "used": 2,
+     "quota": null,
+     "remaining": null,
+     "percent": null,
+     "reset_at": null,
+     "unit": "项",
+     "metric_kind": "usage",
+     "display_value": null
+    }
+   ],
+   "errors": [],
+   "setup_needed": true,
+   "panel_kind": "usage",
+   "supports_timerange": true
+  },
+  {
+   "id": "sensenova",
+   "enabled": false,
+   "display_name": "商汤日日新",
+   "panel": {
+    "color": "#c45c26",
+    "icon": "🔶"
+   },
+   "adapter": "sensenova",
+   "usage_source": "unknown",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown",
+   "ok": false,
+   "demo": false,
+   "status_label": "未启用",
+   "plan_label": null,
+   "windows": [],
+   "errors": [],
+   "notes": [
+    "YAML enabled: false"
+   ]
+  },
+  {
+   "id": "volcengine",
+   "enabled": true,
+   "display_name": "火山方舟",
+   "panel": {
+    "color": "#5b8cff",
+    "icon": "🌋"
+   },
+   "adapter": "volcengine",
+   "usage_source": "mock",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown",
+   "ok": true,
+   "demo": true,
+   "status_label": "示例数据",
+   "plan_label": "Coding Plan · Pro · Running（示例）",
+   "windows": [
+    {
+     "key": "five_hour",
+     "label": "5小时",
+     "used": null,
+     "quota": null,
+     "remaining": null,
+     "percent": 42.0,
+     "reset_at": "2026-10-26 19:22:13",
+     "unit": "%",
+     "metric_kind": "usage",
+     "display_value": null
+    },
+    {
+     "key": "weekly",
+     "label": "本周",
+     "used": null,
+     "quota": null,
+     "remaining": null,
+     "percent": 18.4,
+     "reset_at": "2026-11-02 00:00:00",
+     "unit": "%",
+     "metric_kind": "usage",
+     "display_value": null
+    },
+    {
+     "key": "monthly",
+     "label": "本月",
+     "used": null,
+     "quota": null,
+     "remaining": null,
+     "percent": 9.2,
+     "reset_at": "2026-11-01 00:00:00",
+     "unit": "%",
+     "metric_kind": "usage",
+     "display_value": null
+    }
+   ],
+   "errors": [],
+   "setup_needed": true,
+   "panel_kind": "usage",
+   "supports_timerange": true
+  },
+  {
+   "id": "zhipu",
+   "enabled": false,
+   "display_name": "智谱 GLM",
+   "panel": {
+    "color": "#8b6bff",
+    "icon": "🟣"
+   },
+   "adapter": "zhipu",
+   "usage_source": "unknown",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown",
+   "ok": false,
+   "demo": false,
+   "status_label": "未启用",
+   "plan_label": null,
+   "windows": [],
+   "errors": [],
+   "notes": [
+    "YAML enabled: false"
+   ]
+  }
+ ]
+}

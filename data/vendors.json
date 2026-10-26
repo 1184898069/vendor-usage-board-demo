@@ -1,0 +1,183 @@
+{
+ "vendors": [
+  {
+   "id": "chatgpt",
+   "enabled": true,
+   "display_name": "ChatGPT 订阅",
+   "adapter": "chatgpt",
+   "region": null,
+   "notes": "演示数据：配置驱动的订阅追踪示例，套餐与价格均为示例。",
+   "panel": {
+    "color": "#e3a008",
+    "icon": "💬"
+   },
+   "options_keys": [
+    "currency",
+    "list_price_local",
+    "list_price_usd",
+    "notes",
+    "plan",
+    "region",
+    "renew_day"
+   ],
+   "credential": "secrets/chatgpt.env",
+   "source_file": "config/vendors/chatgpt.yaml",
+   "status": {
+    "vendor_id": "chatgpt",
+    "configured": true,
+    "demo": true,
+    "message": "示例数据 · Plus（演示）",
+    "errors": [],
+    "setup_needed": false,
+    "usage_source": "manual",
+    "execution_readiness": "not_verified",
+    "billing_mode": "unknown"
+   },
+   "supports_timerange": false,
+   "configured": true,
+   "demo": true,
+   "status_label": "示例数据 · Plus（演示）",
+   "usage_source": "manual",
+   "execution_readiness": "not_verified",
+   "billing_mode": "unknown"
+  },
+  {
+   "id": "openai",
+   "enabled": true,
+   "display_name": "OpenAI API",
+   "adapter": "openai",
+   "region": null,
+   "notes": "组织用量 / 花费 API（Admin Key）。这是 platform.openai.com 的 API 花费， 不是 ChatGPT Plus/Go/Pro 订阅。\n",
+   "panel": {
+    "color": "#10a37f",
+    "icon": "⬡"
+   },
+   "options_keys": [
+    "base_url"
+   ],
+   "credential": "secrets/openai.env",
+   "source_file": "config/vendors/openai.yaml",
+   "status": {
+    "vendor_id": "openai",
+    "configured": false,
+    "demo": true,
+    "message": "未配置 Admin API Key，展示示例数据",
+    "errors": [],
+    "setup_needed": true,
+    "usage_source": "mock",
+    "execution_readiness": "disabled",
+    "billing_mode": "unknown"
+   },
+   "supports_timerange": true,
+   "configured": false,
+   "demo": true,
+   "status_label": "未配置 Admin API Key，展示示例数据",
+   "usage_source": "mock",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown"
+  },
+  {
+   "id": "sensenova",
+   "enabled": false,
+   "display_name": "商汤日日新",
+   "adapter": "sensenova",
+   "region": null,
+   "notes": "占位。Hermes 里若已配置商汤，把推理密钥放到 secrets/sensenova.env。 用量 API 待接入；推理密钥通常不能查账单。\n",
+   "panel": {
+    "color": "#c45c26",
+    "icon": "🔶"
+   },
+   "options_keys": [],
+   "credential": "secrets/sensenova.env",
+   "source_file": "config/vendors/sensenova.yaml",
+   "status": {
+    "vendor_id": "sensenova",
+    "configured": false,
+    "demo": false,
+    "message": "用量 API 待接入",
+    "errors": [
+     "YAML 中 enabled: false"
+    ],
+    "setup_needed": true,
+    "usage_source": "unknown",
+    "execution_readiness": "disabled",
+    "billing_mode": "unknown"
+   },
+   "supports_timerange": false,
+   "configured": false,
+   "demo": false,
+   "status_label": "用量 API 待接入",
+   "usage_source": "unknown",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown"
+  },
+  {
+   "id": "volcengine",
+   "enabled": true,
+   "display_name": "火山方舟",
+   "adapter": "volcengine",
+   "region": "cn-beijing",
+   "notes": "管控面 OpenAPI（IAM AccessKey），不是推理 ARK_API_KEY。 Hermes 走 /api/coding/v3 时对应 Coding Plan。\n",
+   "panel": {
+    "color": "#5b8cff",
+    "icon": "🌋"
+   },
+   "options_keys": [
+    "region"
+   ],
+   "credential": "secrets/volcengine.env",
+   "source_file": "config/vendors/volcengine.yaml",
+   "status": {
+    "vendor_id": "volcengine",
+    "configured": false,
+    "demo": true,
+    "message": "未配置 IAM 密钥，展示示例数据",
+    "errors": [],
+    "setup_needed": true,
+    "usage_source": "mock",
+    "execution_readiness": "disabled",
+    "billing_mode": "unknown"
+   },
+   "supports_timerange": true,
+   "configured": false,
+   "demo": true,
+   "status_label": "未配置 IAM 密钥，展示示例数据",
+   "usage_source": "mock",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown"
+  },
+  {
+   "id": "zhipu",
+   "enabled": false,
+   "display_name": "智谱 GLM",
+   "adapter": "zhipu",
+   "region": null,
+   "notes": "占位。Hermes 里若已配置智谱，把密钥放到 secrets/zhipu.env。 BigModel 与 Z.AI 是两套账号。用量 API 待接入。\n",
+   "panel": {
+    "color": "#8b6bff",
+    "icon": "🟣"
+   },
+   "options_keys": [],
+   "credential": "secrets/zhipu.env",
+   "source_file": "config/vendors/zhipu.yaml",
+   "status": {
+    "vendor_id": "zhipu",
+    "configured": false,
+    "demo": false,
+    "message": "用量 API 待接入",
+    "errors": [],
+    "setup_needed": true,
+    "usage_source": "unknown",
+    "execution_readiness": "disabled",
+    "billing_mode": "unknown"
+   },
+   "supports_timerange": false,
+   "configured": false,
+   "demo": false,
+   "status_label": "用量 API 待接入",
+   "usage_source": "unknown",
+   "execution_readiness": "disabled",
+   "billing_mode": "unknown"
+  }
+ ]
+}

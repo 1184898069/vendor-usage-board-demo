@@ -1,0 +1,430 @@
+{
+ "vendor_id": "openai",
+ "display_name": "OpenAI API",
+ "plan_label": "OpenAI API · 示例数据",
+ "status_label": "示例数据",
+ "demo": true,
+ "ok": true,
+ "setup_needed": true,
+ "panel_kind": "usage",
+ "usage_source": "mock",
+ "execution_readiness": "disabled",
+ "billing_mode": "unknown",
+ "product": null,
+ "windows": [
+  {
+   "key": "range",
+   "label": "区间花费",
+   "used": 3.864,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "USD",
+   "metric_kind": "usage",
+   "display_value": null
+  },
+  {
+   "key": "daily_avg",
+   "label": "日均",
+   "used": 0.552,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "USD",
+   "metric_kind": "usage",
+   "display_value": null
+  },
+  {
+   "key": "peak",
+   "label": "最高日（示例）",
+   "used": 1.3524,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "USD",
+   "metric_kind": "usage",
+   "display_value": null
+  },
+  {
+   "key": "line_items",
+   "label": "费用分项",
+   "used": 2,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "项",
+   "metric_kind": "usage",
+   "display_value": null
+  }
+ ],
+ "series": [
+  {
+   "time": "2026-10-26",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-26",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-25",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-25",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-24",
+   "model": "gpt-4.1",
+   "usage": 0.9408,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-24",
+   "model": "gpt-4.1-mini",
+   "usage": 0.4032,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 576000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-23",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-23",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-22",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-22",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-21",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-21",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-20",
+   "model": "gpt-4.1",
+   "usage": 0.294,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-20",
+   "model": "gpt-4.1-mini",
+   "usage": 0.126,
+   "unit": "USD",
+   "billing": "API 花费",
+   "extra": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  }
+ ],
+ "details": [
+  {
+   "time": "2026-10-26",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-26",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-25",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-25",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-24",
+   "model": "gpt-4.1",
+   "quantity": 0.9408,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-24",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.4032,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 576000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-23",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-23",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-22",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-22",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-21",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-21",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-20",
+   "model": "gpt-4.1",
+   "quantity": 0.294,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true
+   },
+   "source": "demo/costs"
+  },
+  {
+   "time": "2026-10-20",
+   "model": "gpt-4.1-mini",
+   "quantity": 0.126,
+   "unit": "USD",
+   "billing_zh": "API 花费",
+   "extras": {
+    "demo": true,
+    "Tokens": 180000
+   },
+   "source": "demo/costs"
+  }
+ ],
+ "notes": [
+  "当前为示例数据，未调用 OpenAI 接口。",
+  "当前密钥没有组织用量权限。请到 https://platform.openai.com/settings/organization/admin-keys 创建 Admin API Key（普通推理密钥 sk-… 无法查询账单）。此面板是 API 花费，不是 ChatGPT Plus/Go/Pro 订阅。"
+ ],
+ "errors": [],
+ "setup_steps": [
+  "打开 https://platform.openai.com/settings/organization/admin-keys 创建 Admin API Key",
+  "写入 secrets/openai.env：OPENAI_API_KEY=sk-admin-…（也可用 OPENAI_ADMIN_KEY）",
+  "可选：OPENAI_ORG_ID=org-…",
+  "普通项目推理密钥没有 /v1/organization/costs 权限，会回落到示例数据",
+  "ChatGPT Plus 不走这条 API，请看「ChatGPT 订阅」面板"
+ ],
+ "setup_html": null,
+ "security": [
+  {
+   "level": "warn",
+   "title": "示例数据",
+   "text": "未配置或无权访问组织用量 API。填写 secrets/openai.env 后刷新。"
+  }
+ ],
+ "checklist": [
+  {
+   "text": "需要组织 Admin API Key",
+   "done": false,
+   "warn": true
+  },
+  {
+   "text": "这是 API 花费，不是 ChatGPT 订阅",
+   "done": true,
+   "warn": false
+  }
+ ],
+ "supports_timerange": true,
+ "refreshed_at": "2026-10-26 17:04:17",
+ "hint": "当前密钥没有组织用量权限。请到 https://platform.openai.com/settings/organization/admin-keys 创建 Admin API Key（普通推理密钥 sk-… 无法查询账单）。此面板是 API 花费，不是 ChatGPT Plus/Go/Pro 订阅。",
+ "extra": {},
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ }
+}

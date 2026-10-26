@@ -1,0 +1,532 @@
+{
+ "vendor_id": "volcengine",
+ "display_name": "火山方舟",
+ "plan_label": "Coding Plan · Pro · Running（示例）",
+ "status_label": "示例数据",
+ "demo": true,
+ "ok": true,
+ "setup_needed": true,
+ "panel_kind": "usage",
+ "usage_source": "mock",
+ "execution_readiness": "disabled",
+ "billing_mode": "unknown",
+ "product": "coding-plan",
+ "windows": [
+  {
+   "key": "five_hour",
+   "label": "5小时",
+   "used": null,
+   "quota": null,
+   "remaining": null,
+   "percent": 42.0,
+   "reset_at": "2026-10-26 19:22:17",
+   "unit": "%",
+   "metric_kind": "usage",
+   "display_value": null
+  },
+  {
+   "key": "weekly",
+   "label": "本周",
+   "used": null,
+   "quota": null,
+   "remaining": null,
+   "percent": 18.4,
+   "reset_at": "2026-11-02 00:00:00",
+   "unit": "%",
+   "metric_kind": "usage",
+   "display_value": null
+  },
+  {
+   "key": "monthly",
+   "label": "本月",
+   "used": null,
+   "quota": null,
+   "remaining": null,
+   "percent": 9.2,
+   "reset_at": "2026-11-01 00:00:00",
+   "unit": "%",
+   "metric_kind": "usage",
+   "display_value": null
+  }
+ ],
+ "series": [
+  {
+   "time": "2026-10-26 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-26 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-25 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-25 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-24 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-24 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-23 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 147600,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 108000,
+    "OutputTokens": 39600,
+    "TotalTokens": 147600,
+    "ReqCnt": 25
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-23 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 460800,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 345600,
+    "OutputTokens": 115200,
+    "TotalTokens": 460800,
+    "ReqCnt": 86
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-22 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-22 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 02:11:00",
+   "model": "glm-4.5",
+   "usage": 1800,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 1200,
+    "OutputTokens": 600,
+    "TotalTokens": 1800,
+    "ReqCnt": 1
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-20 16:20:00",
+   "model": "doubao-seed-1.6",
+   "usage": 41000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-20 10:00:00",
+   "model": "ark-code-latest",
+   "usage": 128000,
+   "unit": "Tokens",
+   "billing": null,
+   "extra": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  }
+ ],
+ "details": [
+  {
+   "time": "2026-10-26 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-26 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-25 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-25 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-24 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-24 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-23 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 147600,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 108000,
+    "OutputTokens": 39600,
+    "TotalTokens": 147600,
+    "ReqCnt": 25
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-23 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 460800,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 345600,
+    "OutputTokens": 115200,
+    "TotalTokens": 460800,
+    "ReqCnt": 86
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-22 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-22 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-21 02:11:00",
+   "model": "glm-4.5",
+   "quantity": 1800,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 1200,
+    "OutputTokens": 600,
+    "TotalTokens": 1800,
+    "ReqCnt": 1
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-20 16:20:00",
+   "model": "doubao-seed-1.6",
+   "quantity": 41000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 30000,
+    "OutputTokens": 11000,
+    "TotalTokens": 41000,
+    "ReqCnt": 7
+   },
+   "source": "GetInferenceUsage"
+  },
+  {
+   "time": "2026-10-20 10:00:00",
+   "model": "ark-code-latest",
+   "quantity": 128000,
+   "unit": "Tokens",
+   "billing_zh": null,
+   "extras": {
+    "InputTokens": 96000,
+    "OutputTokens": 32000,
+    "TotalTokens": 128000,
+    "ReqCnt": 24
+   },
+   "source": "GetInferenceUsage"
+  }
+ ],
+ "notes": [
+  "当前为示例数据，未调用火山引擎接口。",
+  "Hermes 默认走 https://ark.cn-beijing.volces.com/api/coding/v3，对应 Coding Plan。",
+  "Coding Plan 无 GetUsageDetails；真实环境按模型明细来自 GetInferenceUsage（延迟约 5–30 分钟）。",
+  "填写 secrets/volcengine.env 的 VOLC_ACCESSKEY / VOLC_SECRETKEY 后刷新即可拉取真实用量。",
+  "Hermes 日志：已配置但路径不存在（不记录路径内容以外的密钥）"
+ ],
+ "errors": [],
+ "setup_steps": [
+  "打开火山引擎控制台 → 访问控制 IAM → 密钥管理（https://console.volcengine.com/iam/keymanage）",
+  "创建 AccessKey，写入本仓库 secrets/volcengine.env：VOLC_ACCESSKEY、VOLC_SECRETKEY、VOLC_REGION=cn-beijing",
+  "授予只读：ark:GetCodingPlanUsage、ark:GetInferenceUsage、ark:GetAFPUsage、ark:GetUsageDetails",
+  "不要填写推理用的 ARK_API_KEY / ark-… 密钥，那些查不了账单",
+  "可选：在 config/app.yaml 设置 hermes_log，对照本机 Hermes 会话"
+ ],
+ "setup_html": null,
+ "security": [
+  {
+   "level": "warn",
+   "title": "用量尖峰",
+   "text": "2026-10-23 用量 608400，约为中位数 169000 的 3.6 倍。请确认是否为本机会话。"
+  },
+  {
+   "level": "info",
+   "title": "少见模型",
+   "text": "以下模型在本时间窗占比较低（<5%）：glm-4.5。若你平时不用它们，可能来自其他工具或设备。"
+  },
+  {
+   "level": "warn",
+   "title": "本机日志为空",
+   "text": "已配置 HERMES_LOG 但未解析到时间戳。云端若有用量，可能全部来自其他设备，或日志格式无法识别。"
+  }
+ ],
+ "checklist": [
+  {
+   "text": "用量来自管控面 OpenAPI，不是推理 ARK_API_KEY",
+   "done": true,
+   "warn": false
+  },
+  {
+   "text": "Coding Plan 配额为百分比窗口；按模型看 GetInferenceUsage",
+   "done": true,
+   "warn": false
+  }
+ ],
+ "supports_timerange": true,
+ "refreshed_at": "2026-10-26 17:04:17",
+ "hint": null,
+ "extra": {
+  "actions_tried": [],
+  "product": "coding-plan"
+ },
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ }
+}

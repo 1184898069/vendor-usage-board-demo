@@ -1,0 +1,148 @@
+{
+ "vendor_id": "chatgpt",
+ "display_name": "ChatGPT 订阅",
+ "plan_label": "ChatGPT · Plus · 示例地区",
+ "status_label": "示例数据",
+ "demo": true,
+ "ok": true,
+ "setup_needed": false,
+ "panel_kind": "subscription",
+ "usage_source": "manual",
+ "execution_readiness": "not_verified",
+ "billing_mode": "unknown",
+ "product": null,
+ "windows": [
+  {
+   "key": "plan",
+   "label": "当前套餐",
+   "used": null,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": null,
+   "metric_kind": "subscription_info",
+   "display_value": "Plus"
+  },
+  {
+   "key": "price_local",
+   "label": "本地标价 (PHP)",
+   "used": 999.0,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "PHP",
+   "metric_kind": "subscription_info",
+   "display_value": null
+  },
+  {
+   "key": "price_usd",
+   "label": "约合美元",
+   "used": 16.0,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": null,
+   "unit": "USD",
+   "metric_kind": "subscription_info",
+   "display_value": null
+  },
+  {
+   "key": "renew",
+   "label": "距下次续费",
+   "used": 6.0,
+   "quota": null,
+   "remaining": null,
+   "percent": null,
+   "reset_at": "2026-11-01",
+   "unit": "天",
+   "metric_kind": "subscription_info",
+   "display_value": null
+  }
+ ],
+ "series": [],
+ "details": [],
+ "notes": [
+  "演示数据：本面板为订阅追踪示例，套餐、价格与续费日期均为示例，不是真实订阅。",
+  "地区：示例地区 · 套餐：Plus · 续费日：每月 1 日（按 Asia/Shanghai）"
+ ],
+ "errors": [],
+ "setup_steps": [
+  "复制 config/vendors/chatgpt.yaml，按你的真实订阅改 plan / region / 价格 / renew_day",
+  "plan 可选：Go、Plus、Pro 5x、Pro 20x、Business",
+  "价格填你实际被扣的金额；YAML 注释里的示例地区 App Store 价仅供对照，不是实时抓取",
+  "本面板没有调用日志。API 花费请看 OpenAI 面板",
+  "不要尝试抓取 chatgpt.com / App Store 控制台"
+ ],
+ "setup_html": null,
+ "security": [
+  {
+   "level": "info",
+   "title": "不是调用日志",
+   "text": "OpenAI 不提供 ChatGPT Plus 的 token 明细 API。本页只展示你填写的套餐/价格/续费日。"
+  }
+ ],
+ "checklist": [
+  {
+   "text": "这是你配置的订阅账单，不是调用日志",
+   "done": true,
+   "warn": false
+  },
+  {
+   "text": "与 OpenAI API 花费面板相互独立",
+   "done": true,
+   "warn": false
+  },
+  {
+   "text": "未抓取 ChatGPT / App Store 控制台",
+   "done": true,
+   "warn": false
+  },
+  {
+   "text": "YAML 注释中的示例地区标价仅为 2026-08 参考，非实时",
+   "done": true,
+   "warn": true
+  }
+ ],
+ "supports_timerange": false,
+ "refreshed_at": "2026-10-26 17:04:17",
+ "hint": null,
+ "extra": {
+  "plan": "Plus",
+  "region": "示例地区",
+  "currency": "PHP",
+  "renew_on": "2026-11-01",
+  "reference_prices": {
+   "Go": {
+    "local": 300,
+    "usd": 4.8,
+    "currency": "PHP"
+   },
+   "Plus": {
+    "local": 999,
+    "usd": 16.0,
+    "currency": "PHP"
+   },
+   "Pro 5x": {
+    "local": 6490,
+    "usd": 104.0,
+    "currency": "PHP"
+   },
+   "Pro 20x": {
+    "local": 9990,
+    "usd": 160.0,
+    "currency": "PHP"
+   },
+   "Business": {
+    "local": null,
+    "usd": null,
+    "currency": "USD"
+   }
+  }
+ },
+ "range": {
+  "start": "2026-10-20",
+  "end": "2026-10-26"
+ }
+}
